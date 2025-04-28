@@ -1,61 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio Web</title>
-    <link rel="stylesheet" href="style.css" class="rel">
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" class="rel" />
 
-</head>
-    <!--  MIS COMENTARIOS AL PROYECTO
-    
-    FUENTES Y ESTILOS:
-     UNPKG
-     GOOGLE FONTS--
-     
-     NPM:Es una herramienta de gestión de paquetes que se utiliza principalmente en el ecosistema de Node.js.
-     En resumen, npm es una herramienta esencial para gestionar y automatizar 
-     las dependencias en el desarrollo web moderno, especialmente cuando se trabaja 
-     con Node.js y JavaScript.
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-     box-sizing: border-box es una propiedad CSS que cambia el modelo de caja, haciendo que el 
-     padding y border se incluyan dentro del ancho y alto total del elemento, en lugar de añadirse por fuera.
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo"> Jack <span>Jiménez</span> </a>
 
-      scroll-behavior:smooth; animación suave al cambiar de pantalla
+      <i class="bx bx-menu" id="menu-icon"></i>
 
-     PASOS:
-     Ya tenía el archivo index.html 
-     Cree repo, inicialize y lo conecté con  github.
-     Cree ramas develop y featura, hice push con cada uno para actualziar en web.
-     Ahora cree un archivo style.css  en la rama feature.
+      <nav class="navbar">
+        <a href="#home">Inicio</a>
+        <a href="#about">Sobre mí</a>
+        <a href="#services">Habilidades</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+      </nav>
 
-     En CSS, `:root` es un selector especial que representa el elemento raíz del documento (típicamente el elemento `<html>`). Se usa para definir variables CSS globales (custom properties).
-
-```css
-:root {
-    --bg-color: #080808;
-    --second-bg-color: #101010;
-    --text-color: #fff;
-    --main-color: #ea580c; 
-}
-```
-
-
-:root Selector en CSS, Las ventajas de usar `:root` son:
-- Define variables globales accesibles en todo el documento
-- Facilita el cambio de temas/colores desde un solo lugar
-- Mejora el mantenimiento del código
-
--
-     -->
-
-<body>
-
-
-
-
-<script src="script js"></script>
-
-</body>
+      <button class="gradient-btn">Contáctame</button>
+    </header>
+    <script src="script.js"></script>
+  </body>
 </html>
